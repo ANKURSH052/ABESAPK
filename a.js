@@ -10,7 +10,9 @@ function calculateage(){
 
 
     let display=document.querySelector('p');
-    display.innerHTML=year;
+    display.innerHTML="YEAR IS :"+year;
+    display.innerHTML+="<br>MONTH IS:"+month;
+    display.innerHTML+="<br>DAY IS:"+day;
 
 
 
